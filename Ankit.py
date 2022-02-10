@@ -33,7 +33,7 @@ async def _(event):
     stuber = await event.reply(
         f"Ok ! ғεcтcнιηg {infintyvar} ғяσм ιηsнσятsαρι sεяvεя αη∂ sεη∂ιηg тσ ηεωs cнαηηεℓ",
     )
-    await stuber.edit("αℓℓ ηεωs нαs вεεη sυccεssғυℓℓү ғεтcнε∂, sεη∂ιηg тσ үσυ.)
+    await stuber.edit("αℓℓ ηεωs нαs вεεη sυccεssғυℓℓү ғεтcнε∂, sεη∂ιηg тσ үσυ.")
     starknews = requests.get(main_url).json()
     for item in starknews["data"]:
         sedlyf = item["content"]
