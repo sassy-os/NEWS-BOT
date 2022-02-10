@@ -13,7 +13,7 @@ API_HASH = os.environ.get("API_HASH", default=None)
 BOT_TOKEN = os.environ.get("BOT_TOKEN", default=None)
 
 
-bot = TelegramClient("NEWS-BOT", APP_ID, API_HASH)
+ankit = TelegramClient("NEWS-BOT", APP_ID, API_HASH)
 start = ankit.start(bot_token=BOT_TOKEN) 
 
 
