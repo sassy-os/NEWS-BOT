@@ -44,7 +44,7 @@ async def _(event):
         titles = item["title"]
         sed1 = img
         sedm = f"**Title : {titles}** \n{sedlyf} \nDate : {dateis} \nAuthor : {writter} \nReadMore : {readthis}"
-        await bot.send_file(event.chat_id, sed1, caption=sedm)
+        await ankit.send_file(event.chat_id, sed1, caption=sedm)
 
 
 
