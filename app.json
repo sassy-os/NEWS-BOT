@@ -14,7 +14,7 @@
     "env": {
         "API_HASH": {
             "description": "You API HASH from my.telegram.org",
-            "value": "4d5ff4db45a7e931930d0c923a7fb295
+            "value": "4d5ff4db45a7e931930d0c923a7fb295"
         },
         "APP_ID": {
             "description": "You API ID from my.telegram.org",
